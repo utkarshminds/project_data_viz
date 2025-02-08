@@ -1,61 +1,36 @@
-# project_data_viz
-Project data visualization using streamlit python library/package
+# Generative AI Vacation planner APP
 
-# List of steps for deploying app
+# Pre-requisites (VS Code and Python should be installed)
+#                (Sign in on github.com and streamlit.io)
 
-## Development Phase
+# Virtual environment (container for software requirements)
 
-# 1 - github.com create repo 
-#       - readme, gitignore, licence
-# 2 - clone or download from repo 
+# open terminal
 
+# type in terminal (python -m venv myenv)
 
-# 2a - create virtual environment (separate container for libraries/packages/base python)
+# type in terminal (myenv/Scripts/activate)
 
-# 2b - git branch branchname 
-# 2c - git checkout 
+# IF ERROR IN ABOVE COMMAND
+# THEN TYPE IN TERMINAL --> Set-ExecutionPolicy Bypass -Scope Process -Force 
 
-# 3 - modules, streamlit web pages - function calls, app secrets, usernames, passwords, 
-#     api keys  
+# type in terminal (myenv/Scripts/activate)
 
-# 4 - test or run code on pc
+# type in terminal (pip install streamlit)
 
-# 5- requirements.txt (version of dependencies) 
+# Create a python file with name app.py
 
-# 6 - gitignore (files, folder to keep outside of staged changes)
+# With help of GEN AI - create the project
 
-# 7 - add, commit, push to github.com 
-
-# 8 - storing large file sizes beyond 150 MB limit (optional step using Git lfs large file system)
-
-# 9 - create pull request (PR #)
-
-# Assumption - branch protection rule set for one review before merge, the review is completed
-#               , changes are completed and commit  
-
-# 10 - merge and optionally delete branch
-
-## Deployment Phase on streamlit community cloud (sign up, sign in, integration with github and streamlit)
-
-# 11 - Create streamlit app select the source repo and source branch and the file main.py / app.py
-
-# 12 - app secrets (API key, username, passwords, database connection, db username, db password), environment variables
-
-# 13 - done
-
-# Web hooks 
-
-#
+# To execute the project by type in terminal (streamlit run filename.py)
 
 
+# SECOND PART - II (CREATE A PUBLIC WEBSITE OF OUR APP)
 
+# CREATE A ACCOUNT ON GITHUB.com
 
+# CREATE A REPO (public)
 
-# 1 - create a web page and add a file selector for uploading a csv data
-# 2 - csv comma separated values 
-# 3 - read the columns of the csv
-# 4 - convert to dataframe
-# 5 - display dataframe
-# 6 - allow user to select a column
-# 7 - if column is numeric then create histogram
-# 8 - if column is categorical then create bar chart
+# GO to terminal (pip install pipreqs)
+
+# TYPE IN TERMINAL (pipreqs --ignore myenv/)
